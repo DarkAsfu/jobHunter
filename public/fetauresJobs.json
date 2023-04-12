@@ -34,8 +34,8 @@
         "email": "careers@pinnaclesolutions.com",
         "address": "456 Park Ave, New York, NY",
         "jobResponsibility": "Design and implement cloud-based solutions that meet customer needs and drive business growth. Work closely with customers, sales teams, and engineering teams to gather requirements and develop customized cloud solutions. Create technical architecture and design documents, and ensure that solutions are scalable, secure, and highly available. Stay up-to-date on emerging cloud technologies and best practices, and share knowledge and expertise with the team. Provide technical guidance and leadership to the team, and ensure that projects are delivered on time and within budget.",
-        "educationalRequirement": "Master's degree or PhD in Computer Science or related field...",
-        "experience": "Minimum 3 years of experience in data science or related field..."
+        "educationalRequirement": "Master's degree or PhD in Computer Science or related field",
+        "experience": "Minimum 3 years of experience in data science or related field"
     },
     {
         "id": 3,
@@ -47,7 +47,7 @@
             "Onsite"
         ],
         "location": "Seattle, WA",
-        "description": "We are seeking a talented UX designer to join our team...",
+        "description": "As a UI/UX Designer, you will be responsible for creating intuitive and visually stunning user experiences for our products and services. You will collaborate with cross-functional teams, including product managers, developers, and stakeholders, to ensure that our designs meet user needs and business goals.",
         "salary": "$100,000 - $130,000",
         "phone": "123-456-7890",
         "email": "careers@innovateinc.com",
@@ -66,12 +66,12 @@
             "Remote"
         ],
         "location": "Washington, D.C.",
-        "description": "We are seeking a cybersecurity analyst to join our team...",
+        "description": "As a Cyber Security Analyst, you will be responsible for identifying, assessing, and mitigating potential cybersecurity threats and vulnerabilities. You will work closely with cross-functional teams, including IT, engineering, and business units, to implement and maintain effective security measures and policies.",
         "salary": "$110,000 - $140,000",
         "phone": "123-456-7890",
         "email": "careers@shieldsecurity.com",
         "address": "321 Pennsylvania Ave NW, Washington, D.C.",
-        "jobResponsibility": "Monitor and respond to security threats...",
+        "jobResponsibility": "Conduct vulnerability assessments and penetration testing to identify potential security risks and vulnerabilities,Analyze security logs and events to identify potential threats and respond to incidents in a timely manner",
         "educationalRequirement": "Bachelor's degree in Computer Science or related field...",
         "experience": "Minimum 5 years of experience in cybersecurity or related field..."
     },
@@ -90,7 +90,7 @@
         "phone": "123-456-7890",
         "email": "careers@techventures.com",
         "address": "789 Congress Ave, Austin, TX",
-        "jobResponsibility": "Lead the development and launch of new products...",
+        "jobResponsibility": "Lead the development and launch of new products. Analyze security logs and events to identify potential threats and respond to incidents in a timely manner",
         "educationalRequirement": "Bachelor's degree in Business Administration or related field...",
         "experience": "Minimum 5 years of experience in product management or related field..."
     },
