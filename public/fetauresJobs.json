@@ -1,71 +1,91 @@
 [
     {
-      "companyImage": "../src/assets/images/google-1-1 1.png",
-      "jobTitle": "Software Engineer",
-      "companyName": "Google LLc",
-      "jobType": ["Full-time", "Onsite"],
-      "location": "San Francisco, CA",
-      "description": "We are seeking a highly skilled software engineer to join our team...",
-      "salary": "$120,000 - $150,000",
-      "phone": "123-456-7890",
-      "email": "careers@acmecorp.com",
-      "address": "123 Main St, San Francisco, CA",
-      "jobResponsibility": "Write clean, scalable, and maintainable code...",
-      "educationalRequirement": "Bachelor's degree in Computer Science or related field...",
-      "experience": "Minimum 5 years of experience in software engineering..."
+        "id": 1,
+        "companyImage": "../src/assets/images/google-1-1 1.png",
+        "jobTitle": "Software Engineer",
+        "companyName": "Google LLc",
+        "jobType": [
+            "Full-time",
+            "Onsite"
+        ],
+        "location": "San Francisco, CA",
+        "description": "Tech Ventures is a fast-growing startup that is looking for a dynamic and experienced Product Manager to join our team. As a Product Manager, you will be responsible for leading the development and launch of new products that solve customer problems and drive business growth. You will work closely with cross-functional teams including Engineering, Design, Sales, and Marketing to ensure successful product delivery. We are looking for someone who is passionate about technology, customer-centric, and has a proven track record of delivering innovative products. This is an exciting opportunity to join a high-growth company and shape the future of our product portfolio.",
+        "salary": "$120,000 - $150,000",
+        "phone": "123-456-7890",
+        "email": "careers@acmecorp.com",
+        "address": "123 Main St, San Francisco, CA",
+        "jobResponsibility": "Lead the development and launch of new products that solve customer problems and drive business growth. Collaborate with cross-functional teams to ensure successful product delivery. Conduct market research and gather customer feedback to inform product decisions. Develop and communicate product vision and strategy to stakeholders. Define and prioritize product features and requirements. Analyze product performance metrics and make data-driven decisions to improve product success.",
+        "educationalRequirement": "Bachelor's degree in Computer Science or related field...",
+        "experience": "Minimum 5 years of experience in software engineering..."
     },
     {
-      "companyImage": "../src/assets/images/Adobe_Corporate_Logo.png",
-      "jobTitle": "Data Scientist",
-      "companyName": "Adove",
-      "jobType": ["Part-time", "Remote"],
-      "location": "New York, NY",
-      "description": "We are seeking a data scientist to join our team...",
-      "salary": "$90,000 - $110,000",
-      "phone": "123-456-7890",
-      "email": "careers@pinnaclesolutions.com",
-      "address": "456 Park Ave, New York, NY",
-      "jobResponsibility": "Develop and implement machine learning models...",
-      "educationalRequirement": "Master's degree or PhD in Computer Science or related field...",
-      "experience": "Minimum 3 years of experience in data science or related field..."
+        "id": 2,
+        "companyImage": "../src/assets/images/Adobe_Corporate_Logo.png",
+        "jobTitle": "Data Scientist",
+        "companyName": "Adove",
+        "jobType": [
+            "Part-time",
+            "Remote"
+        ],
+        "location": "New York, NY",
+        "description": "CloudWave Technologies is a leading provider of cloud-based solutions for enterprise customers. We are looking for a highly skilled Cloud Solutions Architect to join our team and help us design and implement cutting-edge cloud solutions that meet our customers' needs. As a Cloud Solutions Architect, you will work closely with customers, sales teams, and engineering teams to design and deliver custom cloud solutions that are scalable, secure, and highly available. You will also be responsible for staying up-to-date on emerging cloud technologies and best practices, and for sharing your knowledge and expertise with the team. This is a great opportunity to join a fast-paced and innovative company and make a real impact on our customers' success.",
+        "salary": "$140,000 - $170,000",
+        "phone": "123-456-7890",
+        "email": "careers@pinnaclesolutions.com",
+        "address": "456 Park Ave, New York, NY",
+        "jobResponsibility": "Design and implement cloud-based solutions that meet customer needs and drive business growth. Work closely with customers, sales teams, and engineering teams to gather requirements and develop customized cloud solutions. Create technical architecture and design documents, and ensure that solutions are scalable, secure, and highly available. Stay up-to-date on emerging cloud technologies and best practices, and share knowledge and expertise with the team. Provide technical guidance and leadership to the team, and ensure that projects are delivered on time and within budget.",
+        "educationalRequirement": "Master's degree or PhD in Computer Science or related field...",
+        "experience": "Minimum 3 years of experience in data science or related field..."
     },
     {
-      "companyImage": "../src/assets/images/Mercedes-Benz_Logo_2010.svg.png",
-      "jobTitle": "UX Designer",
-      "companyName": "Mercedes Benz",
-      "jobType": ["Full-time", "Onsite"],
-      "location": "Seattle, WA",
-      "description": "We are seeking a talented UX designer to join our team...",
-      "salary": "$100,000 - $130,000",
-      "phone": "123-456-7890",
-      "email": "careers@innovateinc.com",
-      "address": "789 Pike St, Seattle, WA",
-      "jobResponsibility": "Design and implement user-centered interfaces...",
-      "educationalRequirement": "Bachelor's degree in Design or related field...",
-      "experience": "Minimum 3 years of experience in UX design or related field..."
+        "id": 3,
+        "companyImage": "../src/assets/images/Mercedes-Benz_Logo_2010.svg.png",
+        "jobTitle": "UX Designer",
+        "companyName": "Mercedes Benz",
+        "jobType": [
+            "Full-time",
+            "Onsite"
+        ],
+        "location": "Seattle, WA",
+        "description": "We are seeking a talented UX designer to join our team...",
+        "salary": "$100,000 - $130,000",
+        "phone": "123-456-7890",
+        "email": "careers@innovateinc.com",
+        "address": "789 Pike St, Seattle, WA",
+        "jobResponsibility": "Lead the development and launch of new products that solve customer problems and drive business growth. Collaborate with cross-functional teams to ensure successful product delivery. Conduct market research and gather customer feedback to inform product decisions. Develop and communicate product vision and strategy to stakeholders. Define and prioritize product features and requirements. Analyze product performance metrics and make data-driven decisions to improve product success.",
+        "educationalRequirement": "Bachelor's degree in Design or related field...",
+        "experience": "Minimum 3 years of experience in UX design or related field..."
     },
     {
-      "companyImage": "../src/assets/images/airbnb.png",
-      "jobTitle": "Cybersecurity Analyst",
-      "companyName": "Airbnd",
-      "jobType": ["Full-time", "Remote"],
-      "location": "Washington, D.C.",
-      "description": "We are seeking a cybersecurity analyst to join our team...",
-      "salary": "$110,000 - $140,000",
-      "phone": "123-456-7890",
-      "email": "careers@shieldsecurity.com",
-      "address": "321 Pennsylvania Ave NW, Washington, D.C.",
-      "jobResponsibility": "Monitor and respond to security threats...",
-      "educationalRequirement": "Bachelor's degree in Computer Science or related field...",
-      "experience": "Minimum 5 years of experience in cybersecurity or related field..."
+        "id": 4,
+        "companyImage": "../src/assets/images/airbnb.png",
+        "jobTitle": "Cybersecurity Analyst",
+        "companyName": "Airbnd",
+        "jobType": [
+            "Full-time",
+            "Remote"
+        ],
+        "location": "Washington, D.C.",
+        "description": "We are seeking a cybersecurity analyst to join our team...",
+        "salary": "$110,000 - $140,000",
+        "phone": "123-456-7890",
+        "email": "careers@shieldsecurity.com",
+        "address": "321 Pennsylvania Ave NW, Washington, D.C.",
+        "jobResponsibility": "Monitor and respond to security threats...",
+        "educationalRequirement": "Bachelor's degree in Computer Science or related field...",
+        "experience": "Minimum 5 years of experience in cybersecurity or related field..."
     },
     {
+        "id": 5,
         "companyImage": "../src/assets/images/netflix-4 1.png",
         "jobTitle": "Product Manager",
         "companyName": "Netflix",
-        "jobType": ["Full-time", "Onsite"],
+        "jobType": [
+            "Full-time",
+            "Onsite"
+        ],
         "location": "Austin, TX",
-        "description": "We are seeking a product manager to join our team...",
+        "description": "CloudWave Technologies is a leading provider of cloud-based solutions for enterprise customers. We are looking for a highly skilled Cloud Solutions Architect to join our team and help us design and implement cutting-edge cloud solutions that meet our customers' needs. As a Cloud Solutions Architect, you will work closely with customers, sales teams, and engineering teams to design and deliver custom cloud solutions that are scalable, secure, and highly available. You will also be responsible for staying up-to-date on emerging cloud technologies and best practices, and for sharing your knowledge and expertise with the team. This is a great opportunity to join a fast-paced and innovative company and make a real impact on our customers' success.",
         "salary": "$110,000 - $140,000",
         "phone": "123-456-7890",
         "email": "careers@techventures.com",
@@ -73,20 +93,24 @@
         "jobResponsibility": "Lead the development and launch of new products...",
         "educationalRequirement": "Bachelor's degree in Business Administration or related field...",
         "experience": "Minimum 5 years of experience in product management or related field..."
-      },
-      {
+    },
+    {
+        "id": 6,
         "companyImage": "../src/assets/images/tesla-9 1.png",
         "jobTitle": "Cloud Solutions Architect",
         "companyName": "Tesla",
-        "jobType": ["Full-time", "Remote"],
+        "jobType": [
+            "Full-time",
+            "Remote"
+        ],
         "location": "Chicago, IL",
-        "description": "We are seeking a cloud solutions architect to join our team...",
+        "description": "CloudWave Technologies is a leading provider of cloud-based solutions for enterprise customers. We are looking for a highly skilled Cloud Solutions Architect to join our team and help us design and implement cutting-edge cloud solutions that meet our customers' needs. As a Cloud Solutions Architect, you will work closely with customers, sales teams, and engineering teams to design and deliver custom cloud solutions that are scalable, secure, and highly available. You will also be responsible for staying up-to-date on emerging cloud technologies and best practices, and for sharing your knowledge and expertise with the team. This is a great opportunity to join a fast-paced and innovative company and make a real impact on our customers' success.",
         "salary": "$140,000 - $170,000",
         "phone": "123-456-7890",
         "email": "careers@cloudwavetech.com",
         "address": "456 Michigan Ave, Chicago, IL",
-        "jobResponsibility": "Design and implement cloud-based solutions...",
+        "jobResponsibility": "Lead the development and launch of new products that solve customer problems and drive business growth. Collaborate with cross-functional teams to ensure successful product delivery. Conduct market research and gather customer feedback to inform product decisions. Develop and communicate product vision and strategy to stakeholders. Define and prioritize product features and requirements. Analyze product performance metrics and make data-driven decisions to improve product success.",
         "educationalRequirement": "Bachelor's degree in Computer Science or related field...",
         "experience": "Minimum 7 years of experience in cloud architecture or related field..."
-      }
+    }
 ]

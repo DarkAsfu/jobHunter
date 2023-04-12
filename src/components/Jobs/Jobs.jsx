@@ -1,9 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
-const Jobs = ({ job }) => {
+import { Link } from 'react-router-dom';
+const Jobs = ({ job, handleJodDetailsId }) => {
     console.log(job)
-    const { companyImage, jobTitle, companyName, jobType, location, salary } = job
+    const {id, companyImage, jobTitle, companyName, jobType, location, salary } = job
     return (
         <div className='border-2 p-8'>
             <img className='w-36' src={companyImage} alt="" />
@@ -18,7 +19,7 @@ const Jobs = ({ job }) => {
                 <p className='text-slate-500 mr-3'><FontAwesomeIcon icon={faLocationDot} className='mr-2'/>{location}</p>
                 <p className='text-slate-500'>Salary: {salary}</p>
             </div>
-            <button className='btn bg-blue-500 text-white border-none hover:bg-blue-800'>View Details</button>
+            <button className='btn bg-blue-500 text-white border-none hover:bg-blue-800'><Link to={`/job/${id}`}>View details</Link></button>
         </div>
     );
 };
