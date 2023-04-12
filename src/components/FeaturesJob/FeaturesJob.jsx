@@ -26,7 +26,7 @@ const FeaturesJob = () => {
             </div>
         <div className='grid grid-cols-1 mx-auto md:w-10/12 md:grid-cols-2 gap-6'>
             {
-                jobsToShow.map(job => <Jobs key={job.id} job={job} ></Jobs>)
+                jobsToShow.map(job => <Jobs key={job.id} job={job}  ></Jobs>)
             }
         </div>
         <button onClick={handleViewAll} className='btn mt-10 mx-auto flex justify-center  bg-blue-500 text-white border-none hover:bg-blue-800'>{showAllJobs ? 'Show Less' : 'View All'}</button>

@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
-import { getShoppingCart } from '../../utilities/fakedb';
+import { addToDb, getShoppingCart } from '../../utilities/fakedb';
 import './JobDetails.css'
+import { setItem } from 'localforage';
 const JobDetails = () => {
     const { id } = useParams();
     const jobData = useLoaderData();
@@ -12,7 +13,8 @@ const JobDetails = () => {
             setJobs(checkData);
         }
     }, [id])
-    const { description,location,jobTitle, educationalRequirement, experience, jobResponsibility, phone,salary} = jobs;
+    const {description,location,jobTitle, educationalRequirement, experience, jobResponsibility, phone,salary} = jobs;
+
     return (
 
         <div className='md:flex mx-auto w-10/12 info my-24'>
@@ -32,7 +34,7 @@ const JobDetails = () => {
                 <p><span className='text-slate-700'>Phone:</span>{phone}</p>
                 <p><span className='text-slate-700'>Email:</span>xyz@yahoo.com</p>
                 <p><span>Address:</span>{location}</p>
-                <button className='bg-white text-blue-600 px-4 py-1 w-full mt-4 rounded-md font-bold'>Apply Now</button>
+                <button onClick={() => addToDb(id)} className='bg-white text-blue-600 px-4 py-1 w-full mt-4 rounded-md font-bold'>Apply Now</button>
             </div>
             
         </div>
