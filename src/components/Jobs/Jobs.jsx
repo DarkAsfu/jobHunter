@@ -19,7 +19,7 @@ const Jobs = ({ job }) => {
                 <p className='text-slate-500 mr-3'><FontAwesomeIcon icon={faLocationDot} className='mr-2'/>{location}</p>
                 <p className='text-slate-500'>Salary: {salary}</p>
             </div>
-            <button className='btn bg-blue-500 text-white border-none hover:bg-blue-800'><Link to={`/job/${id}`}>View details</Link></button>
+            <Link to={`/job/${id}`}><button className='btn bg-blue-500 text-white border-none hover:bg-blue-800'>View details</button></Link>
         </div>
     );
 };

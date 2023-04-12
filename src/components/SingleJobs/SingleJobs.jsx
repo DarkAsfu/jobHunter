@@ -34,9 +34,9 @@ const SingleJobs = ({ singlejobs }) => {
                     </div>
                 </div>
                 <div>
-                    <button className='btn bg-blue-600 border-none hover:bg-blue-400'>
-                    <Link to={`/job/${id}`}>View details</Link>
-                    </button>
+                <Link to={`/job/${id}`}><button className='btn bg-blue-600 border-none hover:bg-blue-400'>
+                    View details
+                    </button></Link>
                 </div>
             </div>
         </div>

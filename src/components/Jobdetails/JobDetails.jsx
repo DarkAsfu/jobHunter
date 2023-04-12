@@ -16,7 +16,11 @@ const JobDetails = () => {
     const {description,location,jobTitle, educationalRequirement, experience, jobResponsibility, phone,salary} = jobs;
 
     return (
-
+        <div>
+            <div className='text-center'>
+                <h1 className='text-5xl font-bold text-slate-950  mt-6'>Job Details</h1>
+                
+            </div>
         <div className='md:flex mx-auto w-10/12 info my-24'>
             <div className='md:w-9/12 pr-12 '>
                 <p className='mt-6'><span>Job Description:</span> {description}</p>
@@ -24,7 +28,7 @@ const JobDetails = () => {
                 <p className='mt-6'><span>Educational requirement:</span>{educationalRequirement}</p>
                 <p className='mt-6'><span>Experience:</span>{experience}</p>
             </div>
-            <div className='md:w-1/4 bg-blue-500 text-slate-200 p-8 leading-10 '>
+            <div className='md:w-1/4 bg-blue-400 text-slate-200 p-8 leading-10 '>
                 <h3  className='font-xl font-bold'>Job Details</h3>
                 <hr />
                 <p><span className='text-slate-700'>Salary:</span>{salary}</p>
@@ -37,6 +41,7 @@ const JobDetails = () => {
                 <button onClick={() => addToDb(id)} className='btn border-0 bg-white text-blue-600 px-4 py-1 w-full mt-4 rounded-md font-bold'>Apply Now</button>
             </div>
             
+        </div>
         </div>
     );
 };
