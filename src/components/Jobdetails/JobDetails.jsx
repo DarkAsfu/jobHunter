@@ -34,7 +34,7 @@ const JobDetails = () => {
                 <p><span className='text-slate-700'>Phone:</span>{phone}</p>
                 <p><span className='text-slate-700'>Email:</span>xyz@yahoo.com</p>
                 <p><span>Address:</span>{location}</p>
-                <button onClick={() => addToDb(id)} className='bg-white text-blue-600 px-4 py-1 w-full mt-4 rounded-md font-bold'>Apply Now</button>
+                <button onClick={() => addToDb(id)} className='btn border-0 bg-white text-blue-600 px-4 py-1 w-full mt-4 rounded-md font-bold'>Apply Now</button>
             </div>
             
         </div>

@@ -12,6 +12,7 @@ import Layout from './components/Layout/Layout';
 import Statistic from './components/Statistics/Statistic';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import JobDetails from './components/Jobdetails/JobDetails';
+import Error from './components/Error/Error';
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
         element: <JobDetails></JobDetails>,
         loader: ()=> fetch('/fetauresJobs.json')
         
+      },
+      {
+        path: '*',
+        element: <Error></Error>
       }
     ]
   },

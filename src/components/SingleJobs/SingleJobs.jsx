@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const SingleJobs = ({ singlejobs }) => {
     const {id, companyImage, jobTitle, companyName, jobType, salary, location } = singlejobs;
-    console.log(singlejobs);
+    // console.log(singlejobs);
     return (
         <div>
             
