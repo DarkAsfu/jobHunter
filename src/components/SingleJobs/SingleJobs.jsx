@@ -7,8 +7,8 @@ const SingleJobs = ({ singlejobs }) => {
     return (
         <div>
             
-            <div className='flex justify-between items-center mx-auto md:w-10/12 border mt-6 p-8'>
-                <div className='flex'>
+            <div className='md:flex justify-between items-center mx-auto md:w-10/12 border mt-6 p-8'>
+                <div className='md:flex'>
                     <div className='mr-5'>
                         <img style={{ width: "300px" }} className='bg-blue-200 px-12 py-14' src={companyImage} alt="" />
                     </div>
@@ -20,7 +20,7 @@ const SingleJobs = ({ singlejobs }) => {
                                 jobType.map(job => <p className='border-2 px-3 py-1 border-blue-500 text-blue-500'>{job}</p>)
                             }
                         </div>
-                        <div className='flex gap-3'>
+                        <div className='md:flex gap-3'>
                             <div className='flex text-state-400'>
                                 <span><svg className='text-slate-400 w-6 h-6' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
