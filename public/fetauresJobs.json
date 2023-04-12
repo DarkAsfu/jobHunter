@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "companyImage": "../src/assets/images/google-1-1 1.png",
+        "companyImage": "/images/google-1-1 1.png",
         "jobTitle": "Software Engineer",
         "companyName": "Google LLc",
         "jobType": [
@@ -20,7 +20,7 @@
     },
     {
         "id": 2,
-        "companyImage": "../src/assets/images/Adobe_Corporate_Logo.png",
+        "companyImage": "/images/Adobe_Corporate_Logo.png",
         "jobTitle": "Data Scientist",
         "companyName": "Adove",
         "jobType": [
@@ -39,7 +39,7 @@
     },
     {
         "id": 3,
-        "companyImage": "../src/assets/images/Mercedes-Benz_Logo_2010.svg.png",
+        "companyImage": "/images/Mercedes-Benz_Logo_2010.svg.png",
         "jobTitle": "UX Designer",
         "companyName": "Mercedes Benz",
         "jobType": [
@@ -58,7 +58,7 @@
     },
     {
         "id": 4,
-        "companyImage": "../src/assets/images/airbnb.png",
+        "companyImage": "/images/airbnb.png",
         "jobTitle": "Cybersecurity Analyst",
         "companyName": "Airbnd",
         "jobType": [
@@ -77,7 +77,7 @@
     },
     {
         "id": 5,
-        "companyImage": "../src/assets/images/netflix-4 1.png",
+        "companyImage": "/images/netflix-4 1.png",
         "jobTitle": "Product Manager",
         "companyName": "Netflix",
         "jobType": [
@@ -96,7 +96,7 @@
     },
     {
         "id": 6,
-        "companyImage": "../src/assets/images/tesla-9 1.png",
+        "companyImage": "/images/tesla-9 1.png",
         "jobTitle": "Cloud Solutions Architect",
         "companyName": "Tesla",
         "jobType": [

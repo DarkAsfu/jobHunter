@@ -23,7 +23,7 @@ const Blog = () => {
                 </div>
                 <div className='border p-10'>
                     <h2 className="font-bold text-3xl text-blue-500">What is useMemo</h2>
-                    <p className="font-bold  text-state-300 mt-5">Answer: <span className='text-slate-700'>The React useMemo Hook returns a memoized value.<br/>Think of memoization as The useMemo Hook only runs when one of its dependencies update.<br/> This can improve performance.</span></p>
+                    <p className="font-bold  text-state-300 mt-5">Answer: <span className='text-slate-700'>The React useMemo Hook returns a memoized value.<br/>Think of memoization as The useMemo Hook only runs when one of its dependencies update. <br/> This can improve performance.</span></p>
                 </div>
             </div>
         </div>

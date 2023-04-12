@@ -20,7 +20,7 @@ const [filteredJobs, setFilteredJobs] = useState([])
           filteredJobs = filteredJobs.filter(job => job.jobType.includes(selectedJobType));
         }
         setFilteredJobs(filteredJobs);
-      }, []);
+      }, [selectedJobType]);
       
 
     const handleAllJob = () => {
