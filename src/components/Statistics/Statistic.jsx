@@ -23,10 +23,11 @@ const data = [
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FFF','#FFBB28', '#FFF'];
 const Statistic = () => {
   return (
+    <div><h1 className='text-3xl my-10 font-bold text-center'>Statistic of Assignment</h1>
     <PieChart className='mx-auto ' width={400} height={400}>
       <Pie data={data} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius={80} fill="#8884d8" label colors={COLORS}/>
       <Tooltip />
-    </PieChart>
+    </PieChart></div>
   );
 };
 
