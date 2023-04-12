@@ -2,7 +2,7 @@
     {
       "companyImage": "../src/assets/images/google-1-1 1.png",
       "jobTitle": "Software Engineer",
-      "companyName": "Google Inc",
+      "companyName": "Google LLc",
       "jobType": ["Full-time", "Onsite"],
       "location": "San Francisco, CA",
       "description": "We are seeking a highly skilled software engineer to join our team...",
@@ -78,7 +78,7 @@
         "companyImage": "../src/assets/images/tesla-9 1.png",
         "jobTitle": "Cloud Solutions Architect",
         "companyName": "Tesla",
-        "jobType": "Full-time, Remote",
+        "jobType": ["Full-time", "Remote"],
         "location": "Chicago, IL",
         "description": "We are seeking a cloud solutions architect to join our team...",
         "salary": "$140,000 - $170,000",
